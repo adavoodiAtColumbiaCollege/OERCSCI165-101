@@ -1,0 +1,98 @@
+@font-face {
+    font-family: robotofont;
+    src: url(Roboto.ttf);
+}
+body{
+    margin: 0;
+    font-family: robotofont;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(218, 226, 233);
+    background: linear-gradient(45deg, #5d87de, #2853bc);
+    overflow: hidden;
+}
+
+.main{
+    width: 50vw;
+    height: 85vh;
+    margin: auto;
+    margin-top: 3vw;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+}
+.header img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    object-fit: contain;
+}
+
+.header .text_header{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.header h1{
+    color: #000;
+}
+.header h3{
+    color: #a2a2a2;
+}
+
+hr{
+    border: 1px solid #d3d7e0;
+}
+.section_agreement{
+    overflow-y: scroll;
+    height: 60%;
+    margin: 20px;
+    border-radius: 10px;
+}
+.section_agreement::-webkit-scrollbar {
+    width: 8px;
+}
+.section_agreement::-webkit-scrollbar-track {
+    background: #e7e8ea;  
+    border-radius: 20px;
+}
+.section_agreement::-webkit-scrollbar-thumb {
+    background-color: #7895e1;
+    border-radius: 20px;
+}
+.section_register{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.section_register #get_email{
+    font-size: 30px;
+    padding: 10px;
+    width: 50%;
+    border: solid #3d6ad1 2px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.section_button{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+.section_button #set_email{
+    width: 30%;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #5890ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+}

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: robotofont;
+    src: url(Roboto.ttf);
+}
+body{
+    background-size: cover;
+    margin: 0;
+    font-family: robotofont;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+#container{
+    width: 50vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+#buttons_div{
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+#reset_button {
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 50%;
+    min-height: 100px;
+    min-width: 100px;
+    font-size: 1.2rem;
+    outline: 4px solid #333;
+    outline-offset: 3px;
+    margin: 15px;
+}
+#start_button {
+    color: #67CE67;
+    background-color: #122914;
+    border: none;
+    border-radius: 50%;
+    min-height: 100px;
+    min-width: 100px;
+    font-size: 1.2rem;
+    outline: 4px solid #122914;
+    outline-offset: 3px;
+    margin: 15px;
+}
+#lap_button {
+    color: #fff;
+    background-color: #333333;
+    border: none;
+    border-radius: 50%;
+    min-height: 100px;
+    min-width: 100px;
+    font-size: 1.2rem;
+    outline: 4px solid #333333;
+    outline-offset: 3px;
+    margin: 15px;
+}
+#counter_text{
+    border: solid 3px #67CE67;
+    border-radius: 8px;
+    min-width: 300px;
+    min-height: 120px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#timer_text{
+    font-size: 74px;
+    color: #fff;
+}
+
+#lap_list{
+    width: 100%;
+    height: 30vh;
+    overflow: auto;
+    color: #fff;
+}
+
+.lapping{
+    border-top: solid 1px #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Waste Time</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+
+</head>
+<body>
+
+  <div id="container">
+    <div id="counter_text">
+      <span id="timer_text">00:00:00</span>
+    </div>
+    <div id="buttons_div">
+      <button id="lap_button" onclick="addlap()">Lap</button>
+      <button id="reset_button" onclick="reset()">Reset</button>
+      <button id="start_button" onclick="counter_fun()">Start</button>
+    </div>
+    <div class="list_div">
+      <ul id="lap_list" class="lap_list"></ul>
+    </div>
+  </div>
+
+  <script src="assets/fun.js"></script>
+</body>
+</html>

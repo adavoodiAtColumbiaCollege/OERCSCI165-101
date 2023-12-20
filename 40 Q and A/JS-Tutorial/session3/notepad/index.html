@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Notepad</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+
+</head>
+<body>
+
+    <div class="list_texts_setion_background">
+      <div class="list_texts_setion">
+        <div class="list_texts" id="list_texts">
+          <a href="#" class="list_items" id="new_item" onclick="add_new_item()">New Item</a>
+        </div>
+      </div>
+    </div>
+    <div class="text_section">
+      <button class="button_elemet" id="delete_button" onclick="delete_item()">Delete</button>
+      <button class="button_elemet" id="save_button" onclick="save_item()">Save</button>
+      <input id="title_element" type="text" placeholder="Title..." onkeypress="change_title()"/>
+      <textarea id="text_element" placeholder="Text..." onkeypress="change_text()"></textarea>
+    </div>
+
+    <script src="assets/fun.js"></script>
+</body>
+</html>

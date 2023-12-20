@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <title>Sign in Page</title>
+  <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+<body>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#" id="signup_form">
+			<h1>Create Account</h1>
+			<img id="social" src="assets/social.png">
+			<h3>or use your email for registration</h3>
+			<input class="name" type="text" placeholder="Name" />
+			<input class="email" type="email" placeholder="Email" />
+			<input class="password" type="password" placeholder="Password" />
+			<button>Sign Up</button>
+			<a href="#" id="singin_show">Sign in</a>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#" id="signin_form">
+			<h1>Sign in</h1>
+			<img id="social" src="assets/social.png">
+			<h3>or use your email account</h3>
+			<input class="email" type="email" placeholder="Email" />
+			<input class="password" type="password" placeholder="Password" />
+			<a href="" id="forgetpassword">Forgot your password?</a>
+			<button>Sign In</button>
+			<a href="#" id="singup_show">Sign up</a>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h2>Welcome Back!</h2>
+				<p>To keep connected with us please<br>
+					login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h2>Hello, Friend!</h2>
+				<p>Enter your personak details<br>
+					and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+<img id="shape1" src="assets/shape1.png">
+<img id="shape2" src="assets/shape2.png">
+
+<!-- partial -->
+  <script  src="assets/form.js"></script>
+
+</body>
+</html>

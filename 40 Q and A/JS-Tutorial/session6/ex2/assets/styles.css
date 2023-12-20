@@ -1,0 +1,81 @@
+@font-face {
+    font-family: interfont;
+    src: url(inter.ttf);
+}
+body{
+    background-size: cover;
+    margin: 0;
+    font-family: interfont;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.container{
+  width: 70vw;
+  height: 50%;
+  margin: auto;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img{
+  width: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+header h1{
+  color: #1E4EB0;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}
+header h5{
+  color: #00C6B5;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button_section{
+  margin: auto;
+  width: 60%;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+button {
+  background-color: #2258C7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 40%;
+  font-size: 16px;
+}
+
+#url_section{
+  border-radius: 50px;
+  border: solid 1px gray;
+  width: fit-content;
+  padding: 15px;
+  width: 40vw;
+  margin: auto;
+  margin-top: 30px;
+}
+#url_text{
+  border: none;
+  font-size: 20px;
+  width: 95%;
+}
+.text_icon{
+  padding: 10px;
+  color: black;
+  min-width: 50px;
+  text-align: center;
+}

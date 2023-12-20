@@ -1,0 +1,119 @@
+@font-face {
+    font-family: defaultfont;
+    src: url('Axiforma.otf');
+}
+body {
+    font-family: defaultfont;
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+main{
+    margin-bottom: 150px;
+    width: 70%;
+    margin: auto;
+}
+main p{
+    font-size: 1.125rem;
+}
+main h1{
+    width: fit-content;
+    padding-right: 100px;
+    color: #24A2B6;
+    font-size: 1.5rem;
+    border-bottom: solid #0282FF 2px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(45deg, #ff7b02, #40e000, #04abe7);
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+footer a{
+    color: aliceblue;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(header.png);
+    background-size: cover;
+    z-index: 3;
+    background-position: center-top;
+    position: relative;
+    bottom: 0;
+}
+header h1{
+    position: absolute;
+    top: 20%;
+    left: 200px;
+    z-index: 4;
+    color: #24A2B6;
+    font-size: 4rem;
+}
+.image{
+    max-width: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.navbar {
+    z-index: 5;
+    width: 100%;
+    margin: auto;
+    padding: 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+.navbar_background{
+    z-index: 1;
+    background-color: #ffc900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 60px;
+}
+
+.navbar ul li {
+    z-index: 20;
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: .2em;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #161616;
+}
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: rgb(33, 165, 197);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+}
+.navbar ul li a:hover {
+    text-decoration: none;
+    color: rgb(33, 165, 197);
+    transition: 0.5s;
+}

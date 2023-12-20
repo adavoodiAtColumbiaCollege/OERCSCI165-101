@@ -1,0 +1,128 @@
+@font-face {
+  font-family: robotofont;
+  src: url(Roboto.ttf);
+}
+  html{
+    background-color: #ecf3fe;
+  }
+  body {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  } 
+  #sitemap{
+    position: sticky;
+    left: 10vw;
+    width: 12vw;
+    background-color: #fff;
+    border-radius: 16px;
+  }
+
+  #container{
+    position: absolute;
+    top: 5vh;
+    left: 25vw;
+    width: 60%;
+    background-color: #fff;
+    border-radius: 16px;
+  }
+  .site_title{
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+  }
+  .site_subtitle{
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #737677;
+  }
+  .app_name{
+    text-decoration: underline;
+    color: #06C755;
+  }
+  ul {
+    font-size: 20px;
+    list-style-type: none;
+    color: #000;
+  }
+  li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+  img{
+    margin: auto;
+    width: 50%;
+    margin-left: 15vw;
+  }
+  p{
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 179.19%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  h1{
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #397EFF;
+    padding-left: 2vw;
+  }
+  h2{
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 2vw;
+    color: #737677;
+  }
+  footer{
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 179.19%;
+    margin: 10px;
+    margin-top: 50px;
+  }
+
+  #oa_div{
+    background-color: #F5F7F8;
+    margin: 20px;
+  }
+  #oa_list{
+    padding: 20px;
+  }
+  #oa_item{
+    color: #000;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.19%;
+  }

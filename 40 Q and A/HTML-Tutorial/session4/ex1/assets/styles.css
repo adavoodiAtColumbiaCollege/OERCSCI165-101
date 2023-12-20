@@ -1,0 +1,223 @@
+@font-face {
+  font-family: robotofont;
+  src: url(Roboto.ttf);
+}
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    width: 80%;
+    padding-bottom: 10px;
+    margin: auto;
+  }  
+  #timetext {
+    position: absolute;
+    right: 10vw;
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 172.19%;
+    text-align: center;
+    padding: 0px;
+    margin-top: -30px;
+    color: #fff;
+    background-color: #479BBC;
+    width: 10vw;
+    padding: 3px;
+    padding-top: 30px;
+  }
+  #container{
+    width: 100%;
+    padding: 10px;
+  }
+  #oceanlive{
+    width: 100%;
+    height: 500px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  nav{
+    width: 101.5%;
+    margin: auto;
+    top: 0px;
+  }
+  nav li {
+    float: left;
+  }
+  nav ul {
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 32px;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    background-color: rgb(0, 69, 134);
+  }
+  
+  img.picture{
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+  p{
+    color: #fff;
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+  }
+  h1{
+      color: #fff;
+      font-family: robotofont;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 148%;
+  }
+  #olive{
+    text-align: center;
+  }
+  h2{
+    color: rgb(51, 173, 255);
+  }
+  q{
+    background-color: antiquewhite;
+  }
+  a{
+    color: rgb(176, 218, 255);
+  }
+  #header{
+    width: 100%;
+    height: 40vh;
+    margin-top: 20vh;
+  }
+  #header h1{
+    background: none;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: 'Raanana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 148%;
+  }
+  #header h2{
+    background: none;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: 'Raanana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 148%;
+  }
+
+  .section1{
+    height: 100vh;
+    margin-top: 20vh;
+  }
+  .section1 img{
+    position: absolute;
+    width: 30vw;
+    left: 15vw;
+  }
+  .section1_text{
+    position: absolute;
+    width: 40vw;
+    right: 10vw;
+    margin-top: 20vh;
+  }
+  .section1_text p{
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+  }
+
+  .section2 h1{
+    text-align: center;
+  }
+
+  .section3{
+    height: 60vh;
+    margin-top: 20vh;
+    margin-bottom: 40vh;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .section3 img{
+    position: absolute;
+    width: 30vw;
+    right: 10vw;
+    padding: 40px;
+  }
+  .section3_text{
+    position: absolute;
+    width: 40vw;
+    left: 15vw;
+    margin-top: 20vh;
+  }
+  .section3_text p{
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+  }
+
+  
+  table{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+  th{
+    background-color: #468CA1;
+    color: #fff;
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    border: solid rgb(175, 175, 175) 1px;
+  }
+  td{
+    background-color: white;
+    text-align: center;
+    border: solid rgb(175, 175, 175) 1px;
+    padding: 5px;
+    font-family: robotofont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+  }
+
+  footer{
+    width: 100%;
+    padding: 10px;
+  }
+  #au li{
+    padding: 15px;
+  }
+  #au ul a{
+    font-size: 25px;
+    color: aliceblue;
+  }
+  #au{
+    width: 500px;
+    border-radius: 10px;
+  }

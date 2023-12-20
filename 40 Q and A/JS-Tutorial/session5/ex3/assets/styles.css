@@ -1,0 +1,74 @@
+@font-face {
+	font-family: defaultfont;
+	src: url(Roboto.ttf);
+}
+body{
+	font-family: defaultfont;
+	background-image: #fff;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	overflow: hidden;
+}
+
+#quote_section{
+	background-color: #F1F6FB;
+	width: 80vw;
+	height: 75vh;
+	padding: 40px;
+	margin: 45px 100px;
+	border-radius: 14px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: column;
+}
+#author_image{
+	width: 25vw;
+	height: 50vh;
+	margin: auto;
+	object-fit: cover;
+	border-radius: 8px;
+}
+#number_text{
+	font-size: 18px;
+	color: #48BE46;
+}
+#number_text::after{
+	content: ":";
+}
+#author_text{
+	font-size: 18px;
+	font-style: italic;
+	color: #137AC9;
+	max-height: 2vh;
+	margin-left: 5px;
+}
+#quote_text{
+	margin: auto;
+	width: 90%;
+	font-size: 1.2rem;
+	max-height: 1vh;
+}
+#other_quote{
+	border-radius: 10px;
+	border: none;
+	background-color: #48BE46;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	margin-top: 50px;
+	left: 90%;
+	bottom: 0;
+	padding: 10px;
+	width: 100px;
+	height: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+	#other_quote{
+		display: none;
+	}
+}

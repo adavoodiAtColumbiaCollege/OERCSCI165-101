@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!--set charset to utf-8-->
+  <meta charset="UTF-8">
+  <!--title of webpage-->
+  <title>Ocean</title>
+  <!--select favicon from assets folder-->
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <!--Calling the CSS file-->
+  <link rel="stylesheet" href="assets/styles.css" />
+
+</head>
+<body>
+
+  <!--JavaScript Code To display a timer-->
+  <script>
+    var i =0;
+    function showTime() {
+        document.getElementById("clock").innerHTML = i++;
+    }
+     setInterval(showTime, 1000);
+  </script>
+
+
+
+    <p id="timetext">Seconds the<br>site is open:<br> <span id="clock">0</span> s</p>
+
+
+    <nav>
+      <!--use unordered list to link titles-->
+      <ul style="list-style-type:none;" class="bookmark">
+        <li><a href="#ocean">Ocean</a></li>
+        <li><a href="#olive">Ocean Live!</a></li>
+        <li><a href="#os">Ocean and Sea</a></li>
+        <li><a href="#wo">World Ocean</a></li>
+        <li><a href="#et">Etymology</a></li>
+        <li><a href="#od">Oceanic divisions</a></li>
+        <li><a href="#ref">Refrences</a></li>
+      </ul>
+    </nav>
+
+    <header id="header">
+      <h1>Discover the ocean.<br>
+        Understand the planet.</h1>
+      <h2>Advancing our knowledge of the ocean at a critical time.</h2>
+    </header>
+
+<!--Using the container ID for the background of the texts-->    
+<div id="container" class="container">
+  
+
+  <section id="Home">
+
+    <article>
+
+      <!--tag h1 for title--><!--set id for css code-->
+      <h1 id="ocean">Ocean</h1>
+      <!--use p tag to create box & style for b tag and q tag-->
+      <p>The Ocean (also the Sea or the world Ocean) is the body of salt water that covers approximately 70.8% of the surface of Earth and contains 97% of Earth's water. An Ocean can 
+        also refer to any of the large bodies of water into which the world Ocean is conventionally divided. Separate names are used to identify five different areas of the Ocean: Pacific 
+        (the largest), Atlantic, Indian, Southern (Antarctic), and Arctic (the smallest). Sea water covers approximately 361,000,000 km2 (139,000,000 sq mi) of the planet. The Ocean is the 
+        principal component of Earth's hydrosphere, and therefore integral to life on Earth. Acting as a huge heat reservoir, the Ocean influences climate and weather patterns, the carbon 
+        cycle, and the water cycle.</p>
+      <p>
+        Oceanographers divide the Ocean into different vertical and horizontal zones based on physical and biological conditions. The pelagic zone consists of the water column from 
+        surface to Ocean floor throughout the open Ocean. The water column is further categorized in other zones depending on depth and on how much light is present. The photic zone 
+        includes water from the surface to a depth of 1% of the surface light (about 200 m in the open Ocean), where photosynthesis can occur. This makes the photic zone the most 
+        biodiverse. Photosynthesis by plants and microscopic algae (free floating phytoplankton) creates organic matter using light, water, carbon dioxide, and nutrients. Ocean 
+        photosynthesis creates 50% of the oxygen in earth's atmosphere. This upper sunlit zone is the origin of the food supply which sustains most of the Ocean ecosystem. Light only 
+        penetrates to a depth of a few hundred meters; the remaining Ocean below is cold and dark. The continental shelf where the Ocean approaches dry land is more shallow, with a 
+        depth of a few hundred meters or less. Human activity has a greater impact on the continental shelf.</p>
+
+            
+      <h1 id="olive">Ocean Live!</h1>
+      <iframe id="oceanlive" src="https://education.nationalgeographic.org/resource/ocean"></iframe>
+
+      <div class="section1">
+        <div class="section1_text">
+            <h1 id="os">Ocean and Sea</h1>
+            <p>The terms "the Ocean" or "the Sea " used without specification refer to the interconnected 
+              body of salt water covering the majority of the Earth's surface. It includes the Atlantic, 
+              Pacific, Indian, Southern and Arctic Oceans. As a general term, "the Ocean" and "the Sea " 
+              are often interchangeable, although speakers of British English refer to "the Sea " in all 
+              cases, even when the body of water is one of the Oceans.</p>
+            <p>
+              Strictly speaking, a "Sea " is a body of water (generally a division of the world Ocean) 
+              partly or fully enclosed by land. The word "Sea " can also be used for many specific, much 
+              smaller bodies of Sea water, such as the North Sea or the Red Sea . There is no sharp 
+              distinction between Sea s and Oceans, though generally Sea s are smaller, and are often
+               partly (as marginal Sea s) or wholly (as inland Sea s) bordered by land.</p>
+        </div>
+        <img class="picture" src="./assets/photo2.png"/>
+      </div>
+
+      <div class="section2">
+        <h1 id="wo">World Ocean</h1>
+        <p>The contemporary concept of the World Ocean was coined in the early 20th century by the Russian Oceanographer Yuly Shokalsky to refer to the continuous Ocean that covers 
+          and encircles most of Earth. The global, interconnected body of salt water is sometimes referred to as the world Ocean or global Ocean. The concept of a continuous body of water 
+          with relatively free interchange among its parts is of fundamental importance to Oceanography.</p>
+      </div>
+
+      <div class="section3">
+        <div class="section3_text">
+          <h1 id="et">Etymology</h1>
+          <p>The word Ocean comes from the figure in classical antiquity, Oceanus the elder of the Titans in 
+            classical Greek mythology. Oceanus was believed by the ancient Greeks and Romans to be the 
+            divine personification of an enormous river encircling the world.</p>
+          <p>
+            The concept of  has an Indo-European connection. Greek has been compared to the Vedic 
+             predicated of the dragon who captured the cows/rivers. Related to this notion, the Okeanos is 
+            represented with a dragon-tail on some early Greek vases.</p>
+        </div>
+        <img class="picture" src="./assets/photo3.png"/>
+      </div>
+
+    <!--use id for background div table-->
+    <div id="table">
+      <h1 id="od">Oceanic divisions</h1>
+      <table>
+        <tr>
+          <th>Ocean</th>
+          <th>Location</th>
+          <th>Area (km<sup>2</sup>)</th>
+          <th>Volume (km<sup>3</sup>)</th>
+          <th>Avg. depth (m)</th>
+          <th>Coastline (km)</th>
+        </tr>
+        <tr>
+          <td>Pacific Ocean</td>
+          <td>Between Asia and Australasia and the Americas</td>
+          <td>168,723,000
+            (46.6%)</td>
+          <td>669,880,000
+            (50.1%)</td> 
+          <td>3,970</td> 
+          <td>135,663
+            (35.9%)</td>
+        </tr>
+        <tr>
+          <td>Atlantic Ocean</td>
+          <td>Between the Americas and Europe and Africa</td>
+          <td>85,133,000
+            (23.5%)</td>
+          <td>310,410,900
+            (23.3%)</td> 
+          <td rowspan="2">3,646</td> 
+          <td>111,866
+            (29.6%)</td>
+        </tr>
+        <tr>
+          <td>Indian Ocean</td>
+          <td>Between southern Asia, Africa and Australia</td>
+          <td>70,560,000
+            (19.5%)</td>
+          <td>264,000,000
+            (19.8%)</td> 
+          <td>66,526
+            (17.6%)</td>
+        </tr>
+        <tr>
+          <td>Southern Ocean</td>
+          <td>Between Antarctica and the Pacific, Atlantic and Indian Oceans
+            Sometimes considered an extension of those three Oceans.</td>
+            <td rowspan="2">21,960,000
+              (6.1%)</td>
+            <td>71,800,000
+              (5.4%)</td> 
+            <td>3,270</td> 
+            <td>17,968
+              (4.8%)</td>    
+        </tr>
+        <tr>
+          <td>Arctic Ocean</td>
+          <td>Between northern North America and Eurasia in the Arctic
+            Sometimes considered a marginal <b>Sea </b> of the Atlantic.</td>
+            <td>18,750,000
+              (1.4%)</td> 
+            <td>1,205</td> 
+            <td>45,389
+              (12.0%)</td>
+        </tr>
+        <tr>
+          <th colspan="2">Total</th>
+          <th>361,900,000
+            (100%)</th>
+            <th>1.335×10<sup>9</sup>
+              (100%)</th>
+            <th>3,688</th> 
+            <th>377,412
+              (100%)</th>
+        </tr>
+      </table>
+    </div>
+</article>
+</section>
+</div>
+
+  <!--Add footer-->
+  <footer>
+    <br>
+    <div id="au">
+      <h1 id="ref">Refrences</h1>
+      <ul style="list-style-type:none;">
+        <li><a href="https://en.wikipedia.org/wiki/Ocean">Wikipedia</a></li>
+        <li><a href="https://explore.org/livecams">Explore</a></li>
+        <li><a href="https://unsplash.com/s/photos/ocean">UnSplash</a></li>
+        <li><a href="#wo">WorldOcean</a></li>
+        <li><a href="#et">Etymology</a></li>
+        <li><a href="#od">Oceanic divisions</a></li>
+        <li><a href="#sn">Subscribe to newsletter</a></li>
+      </ul>
+    </div>
+    <p style="border: none; font-size: 18px; padding: 5px; text-align: center; width: 300px; margin: auto; color: #fff; background-color: rgba(255, 255, 255, 0.212);">Powered By <a href="" style="color: antiquewhite;">MineSite</a> Studio</p>
+  </footer>
+
+</body>
+</html>

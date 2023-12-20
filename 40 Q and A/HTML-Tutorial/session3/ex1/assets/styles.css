@@ -1,0 +1,124 @@
+
+  html{
+    background-color: #F5F5F5;
+  }
+  body{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }  
+  #googlelogo{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  #sitemap{
+    position: sticky;
+    left: 3vw;
+    width: 17vw;
+    background-color: #fff;
+    border-radius: 16px;
+  }
+
+  #container{
+    /* margin: auto;
+    margin-top: -65vh; */
+    position: absolute;
+    top: 5vh;
+    left: 25vw;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+  }
+  ul{
+    font-size: 20px;
+    list-style-type: none;
+    color: #000;
+  }
+  li a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 55px;
+    padding-bottom: 30px;
+  }
+  img{
+    margin: auto;
+    width: 100%;
+  }
+  #photo3{
+    width: 80%;
+    margin-left: 10%;
+  }
+  p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  a{
+    text-decoration: none;
+    color: #3980FF;
+  }
+  h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #397EFF;
+    padding-left: 2vw;
+  }
+  h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 2vw;
+    color: #737677;
+  }
+  table{
+    padding: 20px;
+  }
+  th{
+    font-size: 20px;
+  }
+  td{
+    background-color: white;
+    border: solid rgb(175, 175, 175) 1px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+  }
+  q{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  }
+  #divq{
+    background-color: #EDF3FD;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  #slogan p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    padding-top: 20px;
+  }

@@ -1,0 +1,75 @@
+@font-face {
+    font-family: robotofont;
+    src: url(Roboto.ttf);
+}
+body{
+    margin: 0;
+    font-family: robotofont;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+.header h1{
+    color: #356734;
+    margin-left: 5%;
+}
+.main{
+    width: 80vw;
+    height: 75vh;
+    margin: auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.section_input{
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.country_buttons{
+    width: 10%;
+    height: 90px;
+    object-fit: contain;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+}
+.country_buttons:focus{
+    background-color: red;
+}
+.section_array h1{
+    color: #356734;
+    margin-bottom: 40px;
+}
+.section_array span{
+    font-size: 1.2rem;
+}
+
+.left_section{
+    width: 30%;
+    max-height: 80vh;
+    overflow: auto;
+    margin-right: 30px;
+}
+
+.right_section{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.image_country{
+    background-color: #fff;
+    width: 100%;
+    max-height: 65%;
+    object-fit: contain;
+    border-radius: 4px;
+    padding: 40px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <title>ToDo App</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+
+</head>
+<body>
+
+  <div class="main">
+    <div class="left_section">
+      <img src="./assets/image.png"/>
+    </div>
+    <div class="right_section">
+      <div class="right_section_div">
+        <div class="header">
+          <span>To-Do App</span>
+        </div>
+        <div class="section_input">
+          <input class="text_task" id="text_task" type="text" placeholder="New Task"/>
+          <div class="text_length_title" id="text_length_title">Length: <span class="text_length" id="text_length">0</span></div>
+          <div class="section_button">
+            <button class="add_button" id="add_button">New Task</button>
+            <button class="remove_button" id="remove_button">Remove Task</button>
+            <button class="clear_button" id="clear_button">Clear!</button><br>
+          </div>
+          <div class="item_length_title" id="item_length_title">Items Size: <span class="items_length" id="items_length">0</span></div>
+        </div>
+        <span class="label_task" id="label_task">Tasks:</span>
+        <div class="section_array" id="section_array">
+        </div>   
+      </div> 
+    </div>
+  </div>
+  <script src="assets/fun.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+@font-face {
+    font-family: robotofont;
+    src: url(SFPro.ttf);
+}
+:root{
+    --defaultwidth: 364px;
+    --defaultheight: 740px;
+}
+body{
+    margin: 0;
+    font-family: robotofont;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main{
+    width: var(--defaultwidth);
+    height: var(--defaultheight);
+    margin: auto;
+    margin-top: 20px;
+}
+#iphone_image{
+    width: var(--defaultwidth);
+    height: var(--defaultheight);
+    position: absolute;
+    z-index: 10;
+}
+#nav_section_left{
+    position: absolute;
+    top: 50px;
+    width: fit-content;
+    margin-left: 60px;
+    z-index: 20;
+}
+#nav_time{
+    font-size: 20px;
+}
+#nav_section_right{
+    position: absolute;
+    top: 55px;
+    width: fit-content;
+    margin-left: 260px;
+    z-index: 20;
+}
+#nav_network_image{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+#nav_wifi_image{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+#nav_battery_image{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+#header_section{
+    position: absolute;
+    width: 360px;
+    z-index: 5;
+    height: 140px;
+}
+#header_background{
+    width: 100%;
+    height: 140px;
+    background-color: rgba(219, 219, 219, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+#back_button{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: 20px;
+    height: 20px;
+}
+#video_button{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 20px;
+    height: 20px;
+}
+#user_avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    position: absolute;
+    top: 70px;
+    left: 43%;
+    margin: auto;
+}
+#user_name{
+    font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+    left: 42%;
+    margin: auto;
+}
+.section_input{
+    width: 315px;
+    height: 30px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 670px;
+    z-index: 10;
+}
+.section_input img{
+    width: 30px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#new_text_message{
+    height: 100%;
+    width: 65%;
+    padding: 5px;
+    padding-right: 15px;
+    border: none;
+    resize: none;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+#send_button{
+    position: absolute;
+    right: 10px;
+}
+.section_messages{
+    overflow-y: scroll;
+    position: absolute;
+    width: 325px;
+    height: 680px;
+    top: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.section_messages::-webkit-scrollbar {
+    display: none;
+}
+#out_message{
+    background-color: rgb(10, 96, 254);
+    color: white;
+    padding: 1px 5px 1px 5px;
+    margin: 10px;
+    border-radius: 30px;
+    width: fit-content;
+    max-width: 70%;
+    word-wrap: break-word;
+    margin-left: auto; 
+    margin-right: 0;
+}
+#in_message{
+    background-color: rgb(223, 222, 228);
+    color: rgb(24, 24, 26);
+    padding: 1px 5px 1px 5px;
+    margin: 10px;
+    border-radius: 30px;
+    width: fit-content;
+    max-width: 70%;
+    word-wrap: break-word;
+}

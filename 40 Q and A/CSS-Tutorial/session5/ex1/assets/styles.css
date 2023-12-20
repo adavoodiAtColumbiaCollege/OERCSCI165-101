@@ -1,0 +1,274 @@
+@font-face {
+  font-family: defaultfont;
+  src: url('sfprodisplay.ttf');
+}
+body {
+  font-family: defaultfont;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url(header.jpg);
+  background-size: cover;
+  z-index: 4;
+  background-position: center-top;
+  position: relative;
+  bottom: 0;
+  animation: header_effect 10s infinite;
+  animation-direction: alternate;
+}
+@keyframes header_effect{
+  from{filter: hue-rotate(0deg);}
+  to{filter: hue-rotate(360deg);}
+}
+header h1{
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  z-index: 4;
+  color: #C35A16;
+  font-size: 24px;
+}
+header #lamlogo{
+  position: absolute;
+  width: 50px;
+  top: 30px;
+  left: 40px;
+  z-index: 4;
+}
+
+.navbar_top {
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  right: 60px;
+  z-index: 5;
+}
+.navbar_top ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 30px 40px;
+  position: relative;
+  letter-spacing: .2em;
+}
+
+.navbar_top ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar_top ul li a:hover {
+  text-decoration: underline;
+  color: #C35A16;
+}
+.whole_car{
+  width: 100vw;
+  overflow: hidden;
+  margin-bottom: -100px;
+}
+
+.car{
+  width: 50%;
+  animation-name: car_move;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+@keyframes car_move {
+  from {left: -50%;}
+  to {left: 150%;}
+}
+
+.tier{
+  width: 200px;
+  margin-left: 50%;
+  animation-name: tier_move;
+  animation-duration: 0.3s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes tier_move {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+
+.navbar {
+  width: fit-content;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 65%;
+  background-color: #E8E8E8;
+  min-width: 200px;
+  border-radius: 9px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #a3a3a3;
+  border-radius: 9px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.content{
+  margin-bottom: 150px;
+  width: 60%;
+  margin-left: 30%;
+}
+.content p{
+  font-size: 16px;
+  color: #191A1D;
+  text-align: justify;
+}
+.content h1{
+  font-size: 32px;
+  color: #000;
+  margin-top: 60px;
+  }
+
+.content img{
+  filter: grayscale(100);
+  border-radius: 14px;
+  width: 40%;
+  height: 300px;
+  margin: 20px;
+  object-fit: cover;
+}
+.content img:hover{
+  transform: scale(1.2);
+  filter: grayscale(0);
+}
+footer{
+  background-color: #f8c807;
+  color: #191A1D;
+  width: 100%;
+  height: 100px;
+  border-top: solid white 3px;
+  text-align: center;
+  font-size: 25px;
+}
+footer a{
+  color: #191A1D;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url(header_small.jpg);
+    background-size: cover;
+    background-position: left;
+  }
+  header h1{
+    position: relative;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .tier{
+    width: 100px;
+    margin-top: 600px;
+  }
+  .navbar {
+    width: fit-content;
+    position: absolute;
+    left: 0px;
+    z-index: 4;
+  }
+  .navbar_top{
+    display: none;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 450px;
+    z-index: 1;
+  }
+  .content{
+    width: 100vw;
+  }
+  .content p{
+    padding-right: 20px;
+  }
+  .content p:hover{
+    transform: scale(1);
+    text-shadow: 0 0 3px orange;
+  }
+  .content img:hover{
+    transform: scale(1);
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  header{
+    z-index: 4;
+  }
+  .tier{
+    width: 13vw;
+    left: -100px;
+  }
+  .navbar_top{
+    display: none;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+  }
+  .content{
+    width: 80vw;
+    margin-left: 15vw;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  header{
+    z-index: 4;
+  }
+  .tier{
+    width: 15vw;
+    left: -40px;
+    margin-left: 0;
+  }
+  .navbar_top{
+    display: none;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+  }
+  .content{
+    width: 70vw;
+    margin-left: 25vw;
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <meta charset="UTF-8">
+  <title>Message App</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+
+</head>
+<body>
+
+  <div class="main">
+
+    <div id="nav_section_left">
+      <span id="nav_time">15:45</span>
+    </div>
+    <div id="nav_section_right">
+      <img id="nav_network_image" src="assets/network_image.png"/>
+      <img id="nav_wifi_image" src="assets/wifi_image.png"/>
+      <img id="nav_battery_image" src="assets/battery_image.png"/>
+    </div>
+    <div id="header_section">
+      <div id="header_background"></div>
+      <span id="user_name">Steve Jobs ></span>
+      <img id="user_avatar" src="assets/user_avatar.jpg"/>
+      <img id="back_button" src="assets/back_button.png">
+      <img id="video_button" src="assets/video_button.png">
+    </div>
+
+    <img id="iphone_image" src="assets/iphone_image.png"/>
+
+    <div class="section_messages" id="section_messages"></div>
+
+    <div class="section_input">
+      <img src="assets/camera_image.png" onclick="clear_chat()">
+      <img src="assets/store_image.png" onclick="clear_chat()">
+      <textarea id="new_text_message" placeholder="iMessage"></textarea>
+      <img id="send_button" src="assets/sendmessage_image.png" onclick="send_message()">
+    </div>
+
+  </div>
+  <script src="assets/fun.js"></script>
+</body>
+</html>

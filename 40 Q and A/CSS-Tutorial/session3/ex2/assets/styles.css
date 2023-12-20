@@ -1,0 +1,97 @@
+@font-face {
+    font-family: lionfont;
+    src: url('mpluscodelatina.ttf');
+}
+@font-face {
+    font-family: pfont;
+    src: url('roboto.ttf');
+}
+body {
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+html {
+    scroll-behavior: smooth;
+}
+main{
+    margin-bottom: 150px;
+    width: 70%;
+    margin: auto;
+}
+main p{
+    font-family: pfont;
+    font-size: 18px;
+}
+main h2{
+    font-family: pfont;
+    font-size: 24px;
+    background-color: #F1F1F1;
+    width: 15%;
+    padding: 10px;
+    margin-top: 50px;
+}
+.goto_top{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 2;
+    height: 70px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #F1F1F1;
+    color: #000;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+footer a{
+    color: #000;
+    font-size: 18px;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(header.jpg);
+    background-size: cover;
+    z-index: 3;
+    background-position: center-top;
+    position: relative;
+    bottom: 0;
+}
+header h1{
+    font-family: lionfont;
+    position: absolute;
+    bottom: 150px;
+    right: 200px;
+    z-index: 4;
+    color: rgb(255, 255, 255);
+    font-size: 128px;
+}
+header a{
+    font-family: lionfont;
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+    z-index: 4;
+    color: #000;
+    font-size: 40px;
+    text-decoration: none;
+}
+.gallery{
+    width: 100%;
+    margin-left: 5%;
+}
+.gallery img{
+    margin: 10px;
+    width: 20%;
+    height: 20vw;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(65, 65, 65, 0.753);
+}

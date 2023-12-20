@@ -1,0 +1,141 @@
+@font-face {
+  font-family: muktafont;
+  src: url('Mukta.ttf');
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #000;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: muktafont;
+}
+header {
+  width: max(900px, 100vw);
+  height: calc(100vh + 100px);
+  background-image: url(header.png);
+  background-size: cover;
+  z-index: 3;
+  background-color: #000;
+}
+header h1{
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 50px;
+  width: fit-content;
+  padding: 20px 120px;
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  right: 15vw;
+}
+.toggle_screen_full{
+  width: 3vw;
+  height: 3vw;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.toggle_screen_minimize{
+  display: none;
+  width: 3vw;
+  height: 3vw;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.toggle_div{
+  position: fixed;
+  top: calc(100vh - 10vh);
+  left: 2vw;
+  background-color: #00000063;
+  border-radius: 20px;
+  padding: 10px;
+}
+.content{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 150px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  gap: 50px;
+  z-index: 4;
+}
+.text{
+  width: 85%;
+  margin: auto;
+}
+.grid_text1{
+  column-count: 2;
+  transition: transform 1.5s, background-color 1s, border-radius 1s;
+}
+.grid_text2{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+}
+.grid_text3{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.grid_text4{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.grid_text5{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+.content p{
+  z-index: 2;
+  height: fit-content;
+  font-size: 16px;
+  padding: 0 10px;
+  color: #fff;
+  text-align: justify;
+}
+.content h1{
+  font-size: 28px;
+  width: fit-content;
+  color: #fff;
+  margin-left: 8%;
+}
+.content .div_image{
+  height: 70vh;
+}
+.content img{
+  z-index: 1;
+  width: 100%;
+  max-height: 30vh;
+  margin-top: 30px;
+  object-fit: cover;
+  transition: object-fit 1s, max-height 0.5s;
+}
+.content img:hover{
+  object-fit: cover;
+  max-height: 65vh;
+}
+@media all and (display-mode: fullscreen) {
+  .toggle_screen_full{
+    display: none;
+  }
+  .toggle_screen_minimize{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .content{
+    width: 100%;
+  }
+  header {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+}

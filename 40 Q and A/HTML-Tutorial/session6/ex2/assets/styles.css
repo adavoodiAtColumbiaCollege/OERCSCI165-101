@@ -1,0 +1,247 @@
+@font-face {
+  font-family: robotofont;
+  src: url(Roboto.ttf);
+}
+@font-face {
+  font-family: interfont;
+  src: url(Inter.ttf);
+}
+html {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: robotofont;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main{
+  width: 35vw;
+  height: 90vh;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.info-box{
+  color: aliceblue;
+  width: 100%;
+  height: 100%;
+}
+
+.info-box-section{
+  width: 100%;
+  height: 60%;
+}
+.header_img{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.info-box-sectoion-elements{
+  position: absolute;
+  top: 0;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.info-box-h{
+  font-family: interfont;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 20px;
+}
+ol{
+  padding-top: 5px;
+}
+li{
+  font-family: interfont;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.info-box-text{
+  font-family: interfont;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.login-box {
+  width: 100%;
+  height: 40%;
+  background: rgb(255, 255, 255);
+}
+
+form{
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 15px 0;
+  color: rgb(37, 37, 37);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #595666;
+  outline: none;
+  background: transparent;
+  font-family: 'Roboto';
+  line-height: 14px;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #7F7C91;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #7566BC;
+  font-size: 12px;
+}
+.login_button{
+  width: 150px;
+  margin: auto;
+}
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #7566BC;
+  font-family: robotofont;
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.login-box a:hover {
+  background: #7566BC;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #7566BC,
+              0 0 25px #7566BC,
+              0 0 50px #7566BC,
+              0 0 100px #7566BC;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #7566BC);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #7566BC);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #7566BC);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #7566BC);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  #landscape{
+    display: none;
+  }
+  .info-box{
+    display: inherit;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0px;
+  }
+}

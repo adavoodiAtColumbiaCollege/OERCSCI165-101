@@ -1,0 +1,129 @@
+@font-face {
+    font-family: robotofont;
+    src: url(Roboto.ttf);
+}
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: robotofont;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(218, 226, 233);
+}
+
+.main{
+    width: 100%;
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+b{
+    color: #4E8098;
+}
+
+#left_side_div{
+    width: 13vw;
+    height: 100px;
+    position: sticky;
+    top: 50px;
+    left: 5%;
+}
+#scroll_div{
+    width: 13vw;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+#scroll_meter{
+    user-select: none;
+}
+#scroll_meter_title{
+    color: #068204;
+    text-align: center;
+    font-size: 0.8rem;
+}
+#scroll_meter_text{
+    color: #0e3a60;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    font-style: bold;
+}
+
+#mouse_div{
+    width: 13vw;
+    height: 100px;
+    margin-top: 2vh;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+#mouse_click{
+    user-select: none;
+}
+#mouse_click_title{
+    color: #068204;
+    text-align: center;
+    font-size: 0.8rem;
+}
+#mouse_click_text{
+    color: #0e3a60;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    font-style: bold;
+}
+
+#text_div{
+    max-width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#scroll_position_bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 10px;
+    background-image: linear-gradient(#dae2e9, #90C2E7);
+    border-left: solid 1px #90C2E7;
+    border-radius:0 0 10px 10px;
+    width: 20px;
+}
+#scroll_position{
+    user-select: none;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: #113d61;
+}
+
+h2{
+    color: #0e3a60;
+}
+h3{
+    color: #949da4;
+}
+hr{
+    height: 1px;
+    background-color: #bdbec0;
+}
+p{
+    color: #011221;
+}

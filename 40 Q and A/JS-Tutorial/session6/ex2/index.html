@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Mini Browser</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="./assets/photo.png">
+      <h1>This is a mini browser</h1>
+      <h5>please type "https://" and "www."</h5>
+    </header>
+    <div>
+      <div id="url_section">
+        <i class="fa fa-search"></i>
+        <input type="text" name="name" class="url_text" id="url_text" required autocomplete="off" />
+      </div>
+      <div class="button_section">
+        <button id="close_button" onclick="closeURL()">Close</button>
+        <button id="open_button" onclick="openURL()">Open</button>
+      </div>
+    </div>
+  </div>
+  <script src="assets/fun.js"></script>
+</body>
+</html>

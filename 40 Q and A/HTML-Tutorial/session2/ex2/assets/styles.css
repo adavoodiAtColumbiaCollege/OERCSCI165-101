@@ -1,0 +1,44 @@
+@font-face {
+    font-family: robotofont;
+    src: url(Roboto.ttf);
+}
+@font-face {
+    font-family: hfont;
+    src: url(Merriweather-Regular.ttf);
+}
+body{
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    padding-top: 450px;
+}
+p{
+    font-family: robotofont;
+    color: #fff;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+}
+img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+h1{
+    font-family: hfont;
+    font-size: 70px;
+    text-align: left;
+    color: #fff;
+    padding: 10px;
+    margin-left: 50px;
+}
+a{
+    color: #fff;
+}
+b{
+    font-family: robotofont;
+    color: #F7811B;
+    border-radius: 5px;
+}

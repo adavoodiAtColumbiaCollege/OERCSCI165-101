@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--set charset to utf-8-->
+  <meta charset="UTF-8">
+  <!--title of webpage-->
+  <title>Watch</title>
+  <!--select favicon from assets folder-->
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <!--Calling the CSS file-->
+  <link rel="stylesheet" href="assets/styles.css" />
+  <!--Calling the Javascript file-->
+  <script src="./assets/clock.js"></script>
+
+</head>
+<body>
+
+   
+    <header>
+      <h2>luxury watch</h2>
+                  <!--create div for clock-->
+                  <div id="clockContainer">
+                    <div id="hour"></div>
+                    <div id="minute"></div>
+                    <div id="second"></div>
+                </div>
+    </header>
+    
+    <section>
+        <nav>
+            <!--use unordered list to link titles-->
+            <ul>
+              <li><a href="#watch">Watch</a></li>
+              <li><a href="#history">History</a></li>
+              <li><a href="#tl">Time Live!</a></li>
+              <li><a href="#evolution">Evolution</a></li>
+              <li><a href="#ww">Wristwatches</a></li>
+              <li><a href="#co">Conversions</a></li>
+            </ul>
+
+        <img class="img_header" id="watch" src="./assets/photo1.png"/>
+      </nav>
+      
+      <article>
+
+        <div class="section1">
+          <div class="section1_text">
+            <h1 class="watch">Watch</h1>
+            <!--use p tag to create box & style for b tag and q tag-->
+            <p>A Watch is a portable timepiece intended to be carried or worn by a person. It is designed to keep a consistent movement despite the motions caused by the person's activities. A wristwatch is designed to be worn around the wrist, attached by a Watch strap or other type of bracelet, including metal bands, leather straps or any other kind of bracelet. A pocket Watch is designed for a person to carry in a 
+              pocket, often attached to a chain. Watches were developed in the 17th century from spring-powered clocks, which appeared as early as the 14th century. During most of 
+              its history the Watch was a mechanical device, driven by clockwork, powered by winding a mainspring, and keeping Time with an oscillating balance wheel. These are called mechanical watches. In the 1960s the electronic quartz Watch was invented, which was powered by a battery and kept Time with a vibrating quartz crystal. By the 1980s the quartz Watch had taken over most of the market 
+              from the mechanical watch. Historically, this is called the quartz revolution (also known as quartz crisis in Switzerland). Developments  
+              the 2010s include smartwatches, which are elaborate computer-like electronic devices designed to be worn on a wrist. They generally incorporate timekeeping functions, but these are only a small subset of the smartwatch's facilities.</p>
+          </div>
+          <img id="picture" src="./assets/photo2.png"/>
+          <img id="picture_background" src="./assets/background_watch.png"/>
+        </div>
+
+        <div class="section2">
+          <div class="section2_text">
+            <!--tag h1 for title--><!--set id for css code-->
+            <h1 id="history">History</h1>
+            <p>Watches evolved from portable spring-driven clocks, which first appeared in 15th-century Europe. Watches were not widely worn in 
+              pockets until the 17th century. One account suggests that the word "watch" came from the Old English word woecce - which meant 
+              "watchman"  because town watchmen used the technology to keep track of their shifts at work. Another says that the term came from 
+              17th-century sailors, who used the new mechanisms to Time the length of their shipboard watches (duty shifts).</p>
+          </div>
+          <img class="picture" src="./assets/photo3.png"/>
+          <img id="picture_background" src="./assets/background_watch.png"/>
+        </div>
+
+
+        <h1 id="tl">Time Live!</h1>
+        <p>Electronic watches require electricity as a power source, and some mechanical movements and hybrid electronic-mechanical movements also require electricity. Usually, the electricity is provided by a replaceable battery. The first use of electrical power in watches was as a substitute for the mainspring, to remove the need for winding. The first electrically powered watch, the Hamilton Electric 500, was released in 1957 by the Hamilton Watch Company of Lancaster, Pennsylvania.</p>
+        <iframe id="timelive" src="https://dayspedia.com/time/online/"></iframe>
+       
+    
+        <div class="section3">
+          <div class="section3_text">
+            <h1 id="evolution">Evolution</h1>
+            <p>A rise in accuracy occurred in 1657 with the addition of the balance spring to the balance 
+              wheel, an invention disputed both at the Time and ever since between Robert Hooke and 
+              Christiaan Huygens. This innovation increased watches' accuracy enormously, reducing 
+              error from perhaps several hours per day to perhaps 10 minutes per day,[18] resulting in 
+              the addition of the minute hand to the face from around 1680 in Britain and around 1700 
+              in France.</p>
+            <p>The increased accuracy of the balance wheel focused attention on errors caused by other 
+              parts of the movement, igniting a two-century wave of watchmaking innovation. The first 
+              thing to be improved was the escapement. The verge escapement was replaced in quality 
+              watches by the cylinder escapement, invented by Thomas Tompion in 1695 and further 
+              developed by George Graham in the 1720s. Improvements in manufacturing  such as the 
+              tooth-cutting machine devised by Robert Hooke  allowed some increase in the volume 
+              of Watch production, although finishing and assembling was still done by hand until well 
+              into the 19th century.</p>
+          </div>
+          <img class="picture" src="./assets/photo4.png"/>
+          <img id="picture_background" src="./assets/background_watch.png"/>
+          <img id="picture_over" src="./assets/over_photo4.png"/>
+        </div>
+
+
+      <!--use id for background div table-->
+      <div id="table">
+        <h1 id="co">Conversions</h1>
+        <p>Conversions between atomic Time systems (TAI, GPS, and UTC) are for the most part exact. However, GPS Time is a measured value as opposed to a computed "paper" scale. As 
+          such it may differ from UTC(USNO) by a few hundred nanoseconds,which in turn may differ from official UTC by as much as 26 nanoseconds. Conversions for UT1 and TT rely on 
+          published difference tables which as of 2022 are specified to 10 microseconds and 0.1 nanoseconds respectively.</p>
+        <br><br>
+        <table>
+          <tr>
+            <th>System</th>
+            <th>Description</th>
+            <th>UT1</th>
+            <th>UTC</th>
+            <th>TT</th>
+            <th>TAI</th>
+            <th>GPS</th>
+          </tr>
+          <tr>
+            <td>UT1</td>
+            <td>Mean Solar Time</td>
+            <td>UT1</td>
+            <td>UTC = UT1 – DUT1</td>
+            <td>TT = UT1 – DUT1 + LS + 32.184 s + DTT</td>
+            <td>TAI = UT1 – DUT1 + LS</td>
+            <td rowspan="4">GPS = UT1 – DUT1 + LS – 19 s</td>
+          </tr>
+          <tr>
+            <td>UTC</td>
+            <td>Civil Time	</td>
+            <td>UT1 = UTC + DUT1</td>
+            <td>UTC</td>
+            <td>TT = UTC + LS + 32.184 s + DTT</td>
+            <td>GPS = UTC + LS – 19 s</td>
+          </tr>
+          <tr>
+            <td>TT</td>
+            <td>Terrestrial (Ephemeris) Time</td>
+            <td>UT1 = TT – 32.184 s - DTT – LS + DUT1</td>
+            <td>UTC = TT – 32.184 s - DTT – LS</td>
+            <td colspan="2">TAI = TT – 32.184 s - DTT</td>
+          </tr>
+          <tr>
+            <td>TAI</td>
+            <td>Atomic Time</td>
+            <td>UT1 = TAI – LS + DUT1</td>
+            <td>UTC = TAI – LS</td>
+            <td>TT = TAI + 32.184 s + DTT</td>
+            <td>TAI</td>
+          </tr>
+          <tr>
+            <td>GPS</td>
+            <td>GPS Time</td>
+            <td>UT1 = GPS + 19 s – LS + DUT1</td>
+            <td>UTC = GPS + 19 s – LS</td>
+            <td>TT = GPS + 51.184 s + DTT</td>
+            <td>TAI = GPS + 19 s</td>
+            <td>GPS</td>
+          </tr>
+        </table>
+      </div>
+    </article>
+    </section>
+    
+    <footer>
+      <br>
+          <h1>About Time</h3>
+          <div id="at">
+          <p class="q">Leo Tolstoy: <q>The two most powerful warriors are patience and time.</q></p>
+          <p class="q">Benjamin Franklin: <q>Time is money.</q></p>
+          <p class="q">Folklore: <q>Time waits for no one.</q></p>
+          <p class="q">William Shakespeare: <q>Better three hours too soon than a minute too late.</q><br></p>
+          <p class="q">Benjamin Franklin: <q>Lost Time is never found again.</q></p>
+          <p class="q">Theophrastus: <q>Time is the most valuable thing a man can spend.</q></p>
+          <p class="q">Pericles: <q>Time is the wisest counselor of all.</q></p>
+          <p class="q">Stephen R. Covey: <q>The key is in not spending time, but in investing it.</q></p>
+          <p class="q">Antoine de Saint-Exupéry, The Little Prince: <q>It is the Time you have wasted for your rose that makes your rose so important.</q></p>
+          <p class="q">Oscar Wilde, The Picture of Dorian Gray: <q>Punctuality is the thief of time.</q></p>
+          </div>
+          <br>
+          <p style="border: none; font-size: 15px; padding: 5px; text-align: center; width: 300px; margin: auto; color: rgb(48, 48, 48); background-color: rgba(255, 255, 255, 0.212); border-top: solid rgb(48, 48, 48) 1px;">Powered By <a href="" style="color: rgb(66, 107, 194);">MineSite</a> Studio</p>
+        
+    </footer>
+    
+    </body>
+    </html>

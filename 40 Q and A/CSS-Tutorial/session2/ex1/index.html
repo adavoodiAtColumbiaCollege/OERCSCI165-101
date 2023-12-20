@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+    <title>Snow</title>
+    <meta charset="UTF-8">
+<style>
+/* define fonts */
+  @font-face {
+    font-family: h1font;
+    src: url(assets/Montserrat.otf);
+  }
+  @font-face {
+    font-family: pfont;
+    src: url(assets/Roboto.ttf);
+  }
+  /* add background image */
+  html{
+    background-image:url('assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* set font, size for h1 and p tag*/
+  h1{
+    font-family: h1font;
+    font-size: 20px;
+    color: #05317A;
+    margin-top: 100px;
+  }
+  p{
+    font-family: pfont;
+    font-size: 14px;
+    text-align: center;
+    text-align: justify;
+    margin-top: 50px;
+  }
+  /* set font, size & margin for header h1*/
+  #header_h1{
+    font-family: h1font;
+    font-size: 64px;
+    color: #05317A;
+    margin-top: 30vh;
+    margin-left: 10vw;
+  }
+  /* set snowflake style */
+  .snowflake {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+  }
+  /* set size & padding for content section */
+  .content{
+    width: 70%;
+    margin: auto;
+    margin-top: 70vh;
+  }
+/* set image width and radius images */
+  img{
+    max-width: 100%;
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px rgba(182, 182, 182, 0.5);
+  }
+  /* animate snowflakes */
+  @-webkit-keyframes snowflakes-fall{
+    0%{top:-10%}
+    100%{top:100%}
+  }
+  @-webkit-keyframes snowflakes-shake{
+    0%{-webkit-transform:translateX(0px);transform:translateX(0px)}
+    50%{-webkit-transform:translateX(80px);transform:translateX(80px)}
+    100%{-webkit-transform:translateX(0px);transform:translateX(0px)}
+  }
+  @keyframes snowflakes-fall{
+    0%{top:-10%}
+    100%{top:100%}
+  }
+  @keyframes snowflakes-shake{
+    0%{transform:translateX(0px)}
+    50%{transform:translateX(80px)}
+    100%{transform:translateX(0px)}
+  }
+  .snowflake{
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+    -webkit-animation-name:snowflakes-fall,snowflakes-shake;
+    -webkit-animation-duration:10s,3s;
+    -webkit-animation-timing-function:linear,ease-in-out;
+    -webkit-animation-iteration-count:infinite,infinite;
+    -webkit-animation-play-state:running,running
+    ;animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running
+  }
+  .snowflake:nth-of-type(0){
+    left:1%;
+    -webkit-animation-delay:0s,0s;
+    animation-delay:0s,0s
+  }
+  .snowflake:nth-of-type(1){
+    left:10%;
+    -webkit-animation-delay:1s,1s;
+    animation-delay:1s,1s}.snowflake:nth-of-type(2){
+      left:20%;
+      -webkit-animation-delay:6s,.5s;
+      animation-delay:6s,.5s
+    }
+    .snowflake:nth-of-type(3){
+      left:30%;
+      -webkit-animation-delay:4s,2s;
+      animation-delay:4s,2s
+    }
+    .snowflake:nth-of-type(4){
+      left:40%;
+      -webkit-animation-delay:2s,2s;
+      animation-delay:2s,2s
+    }
+    .snowflake:nth-of-type(5){
+      left:50%;
+      -webkit-animation-delay:8s,3s;
+      animation-delay:8s,3s
+    }
+    .snowflake:nth-of-type(6){
+      left:60%;
+      -webkit-animation-delay:6s,2s;
+      animation-delay:6s,2s
+    }
+    .snowflake:nth-of-type(7){
+      left:70%;
+      -webkit-animation-delay:2.5s,1s;
+      animation-delay:2.5s,1s
+    }
+    .snowflake:nth-of-type(8){
+      left:80%;
+      -webkit-animation-delay:1s,0s;
+      animation-delay:1s,0s
+    }
+    .snowflake:nth-of-type(9){
+      left:90%;
+      -webkit-animation-delay:3s,1.5s;
+      animation-delay:3s,1.5s
+    }
+  
+</style>
+</head>
+<body>
+
+  <h1 id="header_h1">winter sports you<br>
+    need to try </h1>
+
+  <div class="content">
+
+    <h1>Dog Sledding</h1>
+    <p>What could be better? Snow, beautiful landscapes, and dogs! Dog sledding is a fantastic way of seeing the gorgeous landscapes around you on a personal tour across snow and ice. Sliding along in a sleigh 
+      is a dreamlike experience where you can experience nature and all the wonders it has to offer up close and personal.</p>
+    <img src="assets/photo1.png">
+
+    <h1>Ice Climbing</h1>
+    <p>Ice climbing is pretty much what it says on the tin – climbing ice. Ice climbing is very similar to rock climbing and uses strong, robust ropes and crampons that you can accommodate in your travel camera 
+      bag, to ascend beautiful icefalls, frozen waterfalls, cliffs and frozen rock faces. In most resorts, you can take guided climbing lessons, which everyone can do providing you’ve got a good level of fitness. 
+      Take a look at www.myfitnesshub.com for all the gear and equipments you need for you fitness. All you have to do is get some safety equipment that’s even sturdier and more reliable than the best tennis 
+      strings and you’re all set.</p>
+    <h1>Ice Skating</h1>
+    <p>A fun activity with the kids, a silly activity to try after a few drinks, or a fantastic innovative date idea, ice skating is great fun for children and adults alike. However, if you’re a bit unsteady on your feet, just 
+      make sure you take a good friend you can desperately cling to!</p>
+    <img src="assets/photo2.png">
+
+    <h1>Mountaineering</h1>
+    <p>Mountaineering (otherwise known as alpinism) includes a whole host of activities, including climbing, trekking, scrambling, and even crossing glaciers. Each resort comes with its own unique terrain ready 
+      to be explored and discovered, just make sure you do your research before setting out. You can head out with someone experienced, or join a local tour group, either way, don’t go out alone if you’re a 
+      novice mountaineer.</p>
+    <h1>Ice Hockey</h1>
+    <p>What is snow polo? Well, it’s essentially the Swiss take on regular polo, which means the added sprinkle of natural beauty, lots of cold weather and even more cold, hard cash. The sport was born in the 
+      affluent town of St Moritz in Switzerland, which hosted the first snow polo tournament in 1985. Taking place on a frozen lake, the St Moritz Snow Polo World Cup attracts the upper crust from across the 
+      world, who wear flamboyant furs, sleep in VIP tents and sip champagne as they watch riders compete on the sweeping snowfields. Dreamy.</p>
+    <img src="assets/photo3.png">
+
+    <h1>Ice Hockey</h1>
+    <p>Ice hockey is a winter sport usually played indoors. Two teams compete by shooting a rubber puck into a goal to score. The sport is known to have hard hits and go fast, which is why anyone looking to 
+      have their adrenaline pumping will enjoy this.
+      It is believed to have been adopted from other forms of stick games coming from Europe. It is the official winter sport of Canada.</p>
+    <img src="assets/photo4.png">
+
+    <h1>Bandy</h1>
+    <p>This type of winter sport is closely related to ice hockey. Instead of using a puck, the players throw a small ball around with sticks to reach a goal on either side. However, bandy is one of the precursors of 
+      ice hockey which is why the two sports are quite similar in form. It was even referred to as hockey in Russia and Kazakhstan.
+      It has a version that is played in a significantly smaller court called rink bandy. In this game, they also use a bandy stick, but the goalkeeper does not use it.</p>
+    <h1>Alpine Skiing</h1>
+    <p>Alpine skiing is also known as downhill skiing. This is held on ice-covered mountains or artificial slopes. They use specialized skis for this activity. It has been part of the Winter Olympic Games since 1936.
+      Modern alpine skiing was developed in the late 19th century and was a take on a method of transportation. They used the equipment to create a recreational sport and a competitive sport as well. The 
+      modification of the skis to have curved sides and bindings was introduced by Sondre Norheim, a pioneer in alpine skiing.</p>
+    <img src="assets/photo5.png">
+
+</div>
+
+  <img class="background"></img>
+  <div class="snowflakes" aria-hidden="true">
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❄
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❄
+      </div>
+      <div class="snowflake">
+      MineSite
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❄
+      </div>
+  </div>
+
+</body>
+</html>

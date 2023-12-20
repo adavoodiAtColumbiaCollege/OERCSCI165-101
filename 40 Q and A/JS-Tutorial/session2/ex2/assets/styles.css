@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Axiforma;
+    src: url(Axiforma.ttf);
+}
+body{
+    font-family: Axiforma;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.header{
+    font-size: 2rem;
+    text-align: center;
+    color: #083b74;
+    margin-bottom: 50px;
+}
+.text_task{
+    border: solid #85b3e6 2px;
+    border-radius: 3px;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin: auto;
+}
+.text_length_title{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #247be2;
+}
+.item_length_title{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #247be2;
+}
+.section_button{
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    margin: auto;
+}
+button{
+    background-color: #aed7eb;
+    color: #093c75;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.label_task{
+    color: #0f4078;
+    font-size: 2rem;
+    display: none;
+}
+.section_array{
+    height: 45vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.items{
+    position: relative;
+    font-size: 1rem;
+    background-color: #fff;
+    border: solid #85b3e6 2px;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 3px;
+    display: block;
+    overflow: auto;
+}
+.checkboxs{
+    font-size: 150px;
+    margin-right: 15px;
+    margin-top: -50%;
+    accent-color: #8fe0df;
+    transform: scale(1.5);
+}
+
+.left_section img{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    object-fit: contain;
+}
+.left_section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.right_section{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.right_section_div{
+    width: 80%;
+    margin-left: 7%;
+}
