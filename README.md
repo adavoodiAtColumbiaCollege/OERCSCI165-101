@@ -4,7 +4,7 @@ OER Package for CSCI165 and 101 - Introduction to HTML, CSS and Java Script
 
 
 
-## JS Tutorial
+## JS Tutorial (Design/Figma files and the Source code of implementation)
 
 | Index | Design (Figma)                     | Solution (Github)                                                                   |
 | ----- | ---------------------------------- | ----------------------------------------------------------------------------------- |
@@ -26,7 +26,7 @@ OER Package for CSCI165 and 101 - Introduction to HTML, CSS and Java Script
 
 
 
-## HTML Tutorial
+## HTML Tutorial (Design/Figma files and the Source code of implementation)
 
 | Index | Design (Figma)                     | Solution (Github)                                                                     |
 | ----- | ---------------------------------- | ------------------------------------------------------------------------------------- |
@@ -48,7 +48,7 @@ OER Package for CSCI165 and 101 - Introduction to HTML, CSS and Java Script
 | 7.2   | **[Link](https://bit.ly/3MhngXd)** | **[Link](https://github.com/Mostafa-Davoodi/HTML-Tutorial/tree/master/session7/ex2)** |
 
 
-## CSS Tutorial
+## CSS Tutorial (Design/Figma files and the Source code of implementation)
 
 | Index | Design (Figma)                     | Solution (Github)                                                                    |
 | ----- | ---------------------------------- | ------------------------------------------------------------------------------------ |
