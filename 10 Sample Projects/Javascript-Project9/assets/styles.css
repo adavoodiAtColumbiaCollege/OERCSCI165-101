@@ -1,0 +1,45 @@
+@font-face {
+    font-family: robotofont;
+    src: url(Roboto.ttf);
+}
+body{
+    font-family: robotofont;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.background_img{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+button{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 16px;
+    border-radius: 66px;
+    background: #D9D9D9;
+    margin: 20px;
+}
+#counter_text{ 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12.5px);
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(30px);
+    margin: 20px;
+    font-size: 15px;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
