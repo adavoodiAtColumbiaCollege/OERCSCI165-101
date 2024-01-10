@@ -8,7 +8,7 @@ OER Package for CSCI165 and 101 - Introduction to HTML, CSS and JavaScript
 
 | Index | Design (Figma)                     | Solution (Github)                                                                   |
 | ----- | ---------------------------------- | ----------------------------------------------------------------------------------- |
-| 1.1   | **[Link](https://bit.ly/3WWXuMY)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session1/ex1)** |
+| 1.1   | **[Link](https://bit.ly/3WWXuMY)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session1/ex1)** |
 | 1.2   | **[Link](https://bit.ly/3qzbReo)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session1/ex2)** |
 | 1.3   | **[Link](https://bit.ly/3qzRuxM)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session1/ex3)** |
 | 2.1   | **[Link](https://bit.ly/3Xe95HX)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session2/ex1)** |
