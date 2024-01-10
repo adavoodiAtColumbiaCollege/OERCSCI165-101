@@ -52,25 +52,25 @@ OER Package for CSCI165 and 101 - Introduction to HTML, CSS and JavaScript
 
 | Index | Design (Figma)                     | Solution (Github)                                                                    |
 | ----- | ---------------------------------- | ------------------------------------------------------------------------------------ |
-| 1.1   | **[Link](https://bit.ly/3CgRW6F)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session1/ex1)** |
-| 1.2   | **[Link](https://bit.ly/43n43L7)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session1/ex2)** |
-| 2.1   | **[Link](https://bit.ly/45L7kWq)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session2/ex1)** |
-| 2.2   | **[Link](https://bit.ly/45L7kWq)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session2/ex2)** |
-| 3.1   | **[Link](https://bit.ly/3oMpB4T)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session3/ex1)** |
-| 3.2   | **[Link](https://bit.ly/43qiuOA)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session3/ex2)** |
-| 3.3   | **[Link](https://bit.ly/3Cc9q3R)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session3/ex3)** |
-| 4.1   | **[Link](https://bit.ly/43GUA1d)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session4/ex1)** |
-| 4.2   | **[Link](https://bit.ly/3MRdnjE)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session4/ex2)** |
-| 5.1   | **[Link](https://bit.ly/43FQDd6)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session5/ex1)** |
-| 5.2   | **[Link](https://bit.ly/43BquMI)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session5/ex2)** |
-| 6.1   | **[Link](https://bit.ly/43mRAqR)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session6/ex1)** |
-| 6.2   | **[Link](https://bit.ly/42onceG)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session6/ex2)** |
-| 7.1   | **[Link](https://bit.ly/3WNLhu9)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session7/ex1)** |
-| 7.2   | **[Link](https://bit.ly/43n4qoZ)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session7/ex2)** |
-| 8.1   | **[Link](https://bit.ly/45KoW4B)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session8/ex1)** |
-| 8.2   | **[Link](https://bit.ly/3quN77f)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session8/ex2)** |
-| 9.1   | **[Link](https://bit.ly/3WT0t9f)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session9/ex1)** |
-| 9.2   | **[Link](https://bit.ly/42qCOhu)** | **[Link](https://github.com/Mostafa-Davoodi/CSS-Tutorial/tree/master/session9/ex2)** |
+| 1.1   | **[Link](https://bit.ly/3CgRW6F)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session1/ex1)** |
+| 1.2   | **[Link](https://bit.ly/43n43L7)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session1/ex2)** |
+| 2.1   | **[Link](https://bit.ly/45L7kWq)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session2/ex1)** |
+| 2.2   | **[Link](https://bit.ly/45L7kWq)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session2/ex2)** |
+| 3.1   | **[Link](https://bit.ly/3oMpB4T)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session3/ex1)** |
+| 3.2   | **[Link](https://bit.ly/43qiuOA)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session3/ex2)** |
+| 3.3   | **[Link](https://bit.ly/3Cc9q3R)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session3/ex3)** |
+| 4.1   | **[Link](https://bit.ly/43GUA1d)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session4/ex1)** |
+| 4.2   | **[Link](https://bit.ly/3MRdnjE)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session4/ex2)** |
+| 5.1   | **[Link](https://bit.ly/43FQDd6)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session5/ex1)** |
+| 5.2   | **[Link](https://bit.ly/43BquMI)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session5/ex2)** |
+| 6.1   | **[Link](https://bit.ly/43mRAqR)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session6/ex1)** |
+| 6.2   | **[Link](https://bit.ly/42onceG)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session6/ex2)** |
+| 7.1   | **[Link](https://bit.ly/3WNLhu9)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session7/ex1)** |
+| 7.2   | **[Link](https://bit.ly/43n4qoZ)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session7/ex2)** |
+| 8.1   | **[Link](https://bit.ly/45KoW4B)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session8/ex1)** |
+| 8.2   | **[Link](https://bit.ly/3quN77f)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session8/ex2)** |
+| 9.1   | **[Link](https://bit.ly/3WT0t9f)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session9/ex1)** |
+| 9.2   | **[Link](https://bit.ly/42qCOhu)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/CSS-Tutorial/session9/ex2)** |
 
 
 
