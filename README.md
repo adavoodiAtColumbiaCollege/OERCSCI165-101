@@ -9,20 +9,20 @@ OER Package for CSCI165 and 101 - Introduction to HTML, CSS and JavaScript
 | Index | Design (Figma)                     | Solution (Github)                                                                   |
 | ----- | ---------------------------------- | ----------------------------------------------------------------------------------- |
 | 1.1   | **[Link](https://bit.ly/3WWXuMY)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session1/ex1)** |
-| 1.2   | **[Link](https://bit.ly/3qzbReo)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session1/ex2)** |
-| 1.3   | **[Link](https://bit.ly/3qzRuxM)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session1/ex3)** |
-| 2.1   | **[Link](https://bit.ly/3Xe95HX)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session2/ex1)** |
-| 2.2   | **[Link](https://bit.ly/42z3LQm)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session2/ex2)** |
-| 3.1   | **[Link](https://bit.ly/3qBQNnH)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session3/ex1)** |
-| 3.2   | **[Link](https://bit.ly/3P2Y4a4)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session3/ex2)** |
-| 4.1   | **[Link](https://bit.ly/3CoiAKV)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session4/ex1)** |
-| 4.2   | **[Link](https://figma.com)**      | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session4/ex2)** |
-| 5.1   | **[Link](https://bit.ly/3Cl2W2N)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session5/ex1)** |
-| 5.2   | **[Link](https://bit.ly/42z1k0f)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session5/ex2)** |
-| 6.1   | **[Link](https://bit.ly/3WWaR07)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session6/ex1)** |
-| 6.2   | **[Link](https://bit.ly/42rIBDG)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session6/ex2)** |
-| 7.1   | **[Link](https://bit.ly/3XbR7pi)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session7/ex1)** |
-| 7.2   | **[Link](https://bit.ly/3NeTLpA)** | **[Link](https://github.com/Mostafa-Davoodi/JS-Tutorial/tree/master/session7/ex2)** |
+| 1.2   | **[Link](https://bit.ly/3qzbReo)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session1/ex2)** |
+| 1.3   | **[Link](https://bit.ly/3qzRuxM)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session1/ex3)** |
+| 2.1   | **[Link](https://bit.ly/3Xe95HX)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session2/ex1)** |
+| 2.2   | **[Link](https://bit.ly/42z3LQm)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session2/ex2)** |
+| 3.1   | **[Link](https://bit.ly/3qBQNnH)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session3/ex1)** |
+| 3.2   | **[Link](https://bit.ly/3P2Y4a4)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session3/ex2)** |
+| 4.1   | **[Link](https://bit.ly/3CoiAKV)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session4/ex1)** |
+| 4.2   | **[Link](https://figma.com)**      | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session4/ex2)** |
+| 5.1   | **[Link](https://bit.ly/3Cl2W2N)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session5/ex1)** |
+| 5.2   | **[Link](https://bit.ly/42z1k0f)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session5/ex2)** |
+| 6.1   | **[Link](https://bit.ly/3WWaR07)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session6/ex1)** |
+| 6.2   | **[Link](https://bit.ly/42rIBDG)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session6/ex2)** |
+| 7.1   | **[Link](https://bit.ly/3XbR7pi)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session7/ex1)** |
+| 7.2   | **[Link](https://bit.ly/3NeTLpA)** | **[Link](https://github.com/adavoodiAtColumbiaCollege/OERCSCI165-101/tree/main/40%20Q%20and%20A/JS-Tutorial/session7/ex2)** |
 
 
 
